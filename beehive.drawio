@@ -1,14 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="RYfSXVJePPR_5oWoypB3">
-    <mxGraphModel dx="788" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ugKBHGgi24-H_hdjAibh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-1" target="ugKBHGgi24-H_hdjAibh-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-1" target="ugKBHGgi24-H_hdjAibh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ugKBHGgi24-H_hdjAibh-1" value="Beehive Database&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ugKBHGgi24-H_hdjAibh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-2" target="ugKBHGgi24-H_hdjAibh-6">
           <mxGeometry relative="1" as="geometry" />
@@ -25,7 +28,49 @@
           <mxGeometry x="430" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ugKBHGgi24-H_hdjAibh-10" value="GIve Response and create record in DREAMS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="210" width="80" height="80" as="geometry" />
+          <mxGeometry x="360" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-11" value="DataBase Schema&amp;nbsp;&lt;div&gt;timestamps&lt;/div&gt;&lt;div&gt;location&lt;/div&gt;&lt;div&gt;voicenotes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-14" value="Calls an API to send the data to the DREAMS Database" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-15" target="ugKBHGgi24-H_hdjAibh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-15" value="DREAMS PostgreSQL&lt;div&gt;Stores the record&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-17" value="DataPipeline Which processes the data and does the required things" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="130" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-21" target="ugKBHGgi24-H_hdjAibh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ugKBHGgi24-H_hdjAibh-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-21" value="Sends the Data to proper ML Pipelines" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-22" value="Sentiments Analysis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ugKBHGgi24-H_hdjAibh-25" value="Image Clustering for time series analysis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
